@@ -106,7 +106,7 @@ public class Login extends JFrame implements ActionListener{
                if (rs.next()) 
                {
                    setVisible(false);
-                   new Transactions().setVisible(true);
+                   new Transactions(pinnumber).setVisible(true);
                    
                } else 
                {
